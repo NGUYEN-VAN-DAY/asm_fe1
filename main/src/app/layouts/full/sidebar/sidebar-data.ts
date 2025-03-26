@@ -28,7 +28,7 @@ export const navItems: NavItem[] = [
   {
     displayName: 'Danh sách người dùng',
     iconName: 'solar:bookmark-square-minimalistic-line-duotone',
-    route: '/ui-components/lists',
+    route: '/ui-components/user-list',
   },
   {
     displayName: 'Quản lí bình luận',
@@ -38,7 +38,7 @@ export const navItems: NavItem[] = [
   {
     displayName: 'Lịch sử mua hàng',
     iconName: 'solar:text-field-focus-line-duotone',
-    route: '/ui-components/tooltips',
+    route: '/ui-components/purchase-history',
   },
   {
     displayName: 'Vận chuyển',
@@ -81,7 +81,7 @@ export const navItems: NavItem[] = [
   {
     displayName: 'Đăng nhập',
     iconName: 'solar:lock-keyhole-minimalistic-line-duotone',
-    route: '/authentication',
+    route: '/login',
     children: [
       {
         displayName: 'Login',

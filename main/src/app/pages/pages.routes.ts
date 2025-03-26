@@ -1,5 +1,8 @@
 import { Routes } from '@angular/router';
 import { StarterComponent } from './starter/starter.component';
+import { NgModule } from '@angular/core';
+import { AddProductComponent } from './ui-components/add-product/add-product.component';
+
 
 export const PagesRoutes: Routes = [
   {
@@ -12,5 +15,9 @@ export const PagesRoutes: Routes = [
         { title: 'Starter' },
       ],
     },
+  },
+  {
+    path: "add-product",
+    component: AddProductComponent
   },
 ];

@@ -38,11 +38,13 @@
                         <div class="card">
                             <div class="card-body">
                                 <!-- <h5 class="card-title">Danh sách sản phẩm</h5> -->
-                              <div class="d-flex justify-content-end">
-    <button class="btn btn-custom">
-        <i class="fas fa-plus"></i> Thêm sản phẩm
-    </button>
-</div>
+                                <div class="d-flex justify-content-end">
+                                    <button class="btn btn-custom">
+                                        <!-- <i class="fas fa-plus"></i> Thêm sản phẩm -->
+                                        <a href="/ui-components/add-product" class="as fa-plus text-white">Thêm sản phẩm</a>
+
+                                    </button>
+                                </div>
 
                                 <div class="table-responsive">
                                     <table border="1" id="" class="table-product">
@@ -53,6 +55,8 @@
                                                 <th>Hình ảnh</th>
                                                 <th>Giá</th>
                                                 <th>Giá giảm</th>
+                                                <th>Mô tả</th>
+
                                                 <th>Trạng thái</th>
                                                 <th>Loại</th>
                                                 <th></th>
@@ -85,9 +89,13 @@
                                                 <td>
 
                                                 </td>
+                                                
+                                                <td>
+
+                                                </td>
 
                                                 <td>
-                                                    <a href="editProduct/" class="btn btn-primary ">Sửa</a>
+                                                    <a href="/ui-components/edit-product" class="btn btn-primary ">Sửa</a>
                                                     <form action="/admin/deleteProduct/?_method=DELETE" method="POST">
                                                         <button type="submit" class="btn btn-danger pt-5">Xóa </button>
                                                     </form>

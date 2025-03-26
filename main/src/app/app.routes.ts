@@ -1,6 +1,10 @@
 import { Routes } from '@angular/router';
 import { BlankComponent } from './layouts/blank/blank.component';
 import { FullComponent } from './layouts/full/full.component';
+import { AddProductComponent } from './pages/ui-components/add-product/add-product.component';
+import { AddCategoryComponent } from './pages/ui-components/add-category/add-category.component';
+import { EditProductComponent } from './pages/ui-components/edit-product/edit-product.component';
+import { EditCategoryComponent } from './pages/ui-components/edit-category/edit-category.component';
 
 export const routes: Routes = [
   {
@@ -48,4 +52,19 @@ export const routes: Routes = [
     path: '**',
     redirectTo: 'authentication/error',
   },
+  //  {
+  //     path: "add-product",
+  //     component: AddProductComponent
+  //   },
+  //   {
+  //     path: "add-category",
+  //     component: AddCategoryComponent
+  //   },
+  //   {
+  //     path: "edit-product",
+  //     component: EditProductComponent
+  //   }, {
+  //     path: "edit-category",
+  //     component: EditCategoryComponent
+  //   }
 ];
